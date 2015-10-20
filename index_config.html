@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Simple Text ES6 Sample</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="config">
+    <p>
+      <label for="text">Text</label><input type="text" id="text" value="{{text}}" v-model="text" />
+    </p>
+    <p>
+      <label for="css">CSS</label><textarea id="CSS" v-model="css">{{css}}</textarea>
+    </p>
+    <p>
+      <button v-on="click: onSave">Save</button> <button v-on="click: onCancel">Cancel</button>
+    </p>
+  </div>
+  <script src="dist/config.js"></script>
+</body>
+</html>
