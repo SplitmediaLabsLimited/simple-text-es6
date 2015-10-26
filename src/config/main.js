@@ -1,9 +1,6 @@
-/* globals require */
-
 'use strict';
 
-// For some reason, we can't use "import Vue from 'vue';"
-var Vue = require('vue');
+import Vue from 'vue';
 import {ready, Item, SourceConfigWindow} from 'xjs-framework';
 
 ready().then(Item.getCurrentSource).then(plg => {

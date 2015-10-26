@@ -16,3 +16,7 @@ input[type=text],
 textarea {
   width: 250px;
 }
+
+#config {
+  margin-top: 40px;
+}
