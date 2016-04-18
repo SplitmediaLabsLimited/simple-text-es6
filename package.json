@@ -14,6 +14,6 @@
     "typescript": "^1.6.2",
     "vue": "^0.12.16",
     "webpack": "^1.12.2",
-    "xjs-framework": "^0.8.0"
+    "xjs-framework": "git://github.com/xjsframework/xjs.git#484fb5477ec03a11349ee68cdd766895b23a5a8b"
   }
 }
