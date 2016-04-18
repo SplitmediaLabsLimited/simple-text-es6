@@ -55,7 +55,7 @@
 	var _xjsFramework = __webpack_require__(69);
 
 	(0, _xjsFramework.ready)().then(_xjsFramework.Item.getCurrentSource).then(function (plg) {
-	  var configWindow = _xjsFramework.SourceConfigWindow.getInstance();
+	  var configWindow = _xjsFramework.SourcePropsWindow.getInstance();
 
 	  window.TextApp = new _vue2['default']({
 	    el: '#config',

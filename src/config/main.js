@@ -1,10 +1,10 @@
 'use strict';
 
 import Vue from 'vue';
-import {ready, Item, SourceConfigWindow} from 'xjs-framework';
+import {ready, Item, SourcePropsWindow} from 'xjs-framework';
 
 ready().then(Item.getCurrentSource).then(plg => {
-  let configWindow = SourceConfigWindow.getInstance();
+  let configWindow = SourcePropsWindow.getInstance();
 
   window.TextApp = new Vue({
     el: '#config',
