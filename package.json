@@ -11,7 +11,7 @@
     "style-loader": "^0.13.0",
     "stylus-loader": "^1.4.0",
     "ts-loader": "^0.5.6",
-    "typescript": "^1.6.2",
+    "typescript": "1.6.2",
     "vue": "^0.12.16",
     "webpack": "^1.12.2",
     "xjs-framework": "git://github.com/xjsframework/xjs.git#484fb5477ec03a11349ee68cdd766895b23a5a8b"
